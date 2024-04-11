@@ -1,0 +1,15 @@
+.notes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.note {
+    background-color: rgb(255, 255, 189);
+    border-radius: 10%;
+    width: 33%;
+    margin: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
