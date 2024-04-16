@@ -6,10 +6,63 @@
 }
 
 .note {
-    background-color: rgb(255, 255, 189);
-    border-radius: 10%;
-    width: 33%;
+    background-color: rgb(189, 254, 255);
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 200px;
     margin: 15px;
     padding: 10px;
+    cursor: default;
+}
+.note:hover {
+    border: 2px solid black;
+}
+
+.new-note-button {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+
+.note-buttons{
+    display: flex;
+}
+
+.note-view-button{
+    background-color: rgb(187, 255, 167);
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
     cursor: pointer;
+}
+.note-view-button:hover{
+    background-color: rgb(157, 232, 134);
+}
+
+.note-edit-button{
+    background-color: rgb(246, 255, 167);
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.note-edit-button:hover{
+    background-color: rgb(227, 235, 114);
+}
+
+.note-delete-button{
+    background-color: rgb(255, 148, 148);
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.note-delete-button:hover{
+    background-color: rgb(221, 113, 113);
 }
